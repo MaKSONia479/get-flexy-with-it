@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.link-item a {
+  background-color: hsla(180, 91%, 70%, 0.469);
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in-out;
+  border: none;
+  border-radius: 5px;
+}
+
+.link-item a:hover {
+  background-color: hsl(180, 100%, 49%);
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 0 15px hsla(180, 91%, 70%, 0.469);
+}
