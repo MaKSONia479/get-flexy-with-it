@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  border: 10px solid black;
+  height: 90vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  font-size: 3rem;
+}
+
+#box1 {
+  background-color: hsl(0, 100%, 70%);
+}
+
+#box2 {
+  background-color: hsl(120, 100%, 70%);
+}
