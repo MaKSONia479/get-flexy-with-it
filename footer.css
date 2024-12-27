@@ -1,0 +1,21 @@
+.title {
+  display: flex;
+  justify-content: center;
+  /* border: 10px solid black; */
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  background-color: grey;
+  column-gap: 1rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3rem;
+  color: white;
+  margin: 10px;
+}
